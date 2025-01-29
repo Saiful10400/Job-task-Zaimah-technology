@@ -2,6 +2,7 @@
 import AdsBanner from "./components/AdsBanner";
 import BestSellers from "./components/BestSellers";
 import BottomAdd from "./components/BottomAds";
+import GiftCertificateBanner from "./components/GiftCertificateBanner";
 import NavBar from "./components/NavBar";
 import NewArrivalProducts from "./components/NewArrivalProducts";
 import RecommandedProduct from "./components/RecommandedProduct";
@@ -20,6 +21,7 @@ const App = () => {
     <ShopCollection/>
     <RecommandedProduct/>
     <NewArrivalProducts/>
+    <GiftCertificateBanner/>
     <BestSellers/>
     </div>
   </div>;
