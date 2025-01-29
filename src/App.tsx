@@ -1,7 +1,9 @@
  
 import AdsBanner from "./components/AdsBanner";
+import BestSellers from "./components/BestSellers";
 import BottomAdd from "./components/BottomAds";
 import NavBar from "./components/NavBar";
+import NewArrivalProducts from "./components/NewArrivalProducts";
 import RecommandedProduct from "./components/RecommandedProduct";
 import ShopCollection from "./components/ShopCollection";
 import TopAdd from "./components/TopAds";
@@ -17,6 +19,8 @@ const App = () => {
     <AdsBanner/>
     <ShopCollection/>
     <RecommandedProduct/>
+    <NewArrivalProducts/>
+    <BestSellers/>
     </div>
   </div>;
 };

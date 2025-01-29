@@ -3,8 +3,8 @@ import { Tproduct } from "../types";
 
 const ProductCart = ({ data }: { data: Tproduct }) => {
   return (
-    <div className="text-center pb-[20px] relative ">
-      <div className="absolute top-0 flex justify-between w-full">
+    <div className="text-center pb-[20px] relative pt-[15px]">
+      <div className="absolute top-[-10px] flex justify-between w-full">
         <h1 className="text-[9px] font-bold px-1 leading-[3] text-white bg-[#774C7D]">WOMEN</h1>
         <button>
           <Heart />

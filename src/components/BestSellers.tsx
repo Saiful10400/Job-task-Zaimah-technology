@@ -1,16 +1,16 @@
-import { newArrivalProducts } from "../data";
+import { bestSellsProducts } from "../data";
 import { Tproduct } from "../types";
 import ProductCart from "../ui/ProductCart";
 import Tittle from "../ui/Tittle";
 
  
 
-const NewArrivalProducts = () => {
+const BestSellers = () => {
     return (
         <div className="text-center mb-[57px]">
-        <Tittle text="NEW ARRIVALS!" />
+        <Tittle text="BEST SELLERS" />
         <section className="grid lg:grid-cols-4 gap-[58px] grid-cols-1 mt-[47px] mb-[28px]">
-          {newArrivalProducts.map((item: Tproduct) => (
+          {bestSellsProducts.map((item: Tproduct) => (
             <ProductCart key={item.name} data={item} />
           ))}
         </section>
@@ -19,4 +19,4 @@ const NewArrivalProducts = () => {
     );
 };
 
-export default NewArrivalProducts;
+export default BestSellers;
