@@ -4,9 +4,9 @@ import pleasures from "../assets/products/pleasures.png";
 
 const AdsBanner = () => {
   return (
-    <div className="bg-[#FCD0CC] overflow-hidden h-[250px] mt-5 relative pl-[96px] mb-[60px]">
+    <div className="bg-[#FCD0CC]   overflow-hidden h-[250px] mt-5 relative pl-[96px] mb-[60px]">
       <section className="absolute top-[56px] left-[96px]">
-        <h1 className="font-bold text-[48px]">UP TO 80% OFF.</h1>
+        <h1 className="font-bold lg:text-[48px]">UP TO 80% OFF.</h1>
         <button className="bg-[#4D2952] text-white font-bold text-sm px-11 py-3 mt-[18px]">
           SEARCH FOR BRAND
         </button>

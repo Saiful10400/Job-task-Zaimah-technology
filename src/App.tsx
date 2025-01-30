@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import NewArrivalProducts from "./components/NewArrivalProducts";
 import RecommandedProduct from "./components/RecommandedProduct";
 import ShopCollection from "./components/ShopCollection";
+import SubscriptionClubBanner from "./components/SubscriptionClubBanner";
 import TopAdd from "./components/TopAds";
 import TopNavBar from "./components/TopNavBar";
 
@@ -16,12 +17,13 @@ const App = () => {
     <TopNavBar/>
     <NavBar/>
     <BottomAdd/>
-    <div className="w-[1200px] mx-auto">
+    <div className="lg:w-[1200px] mx-auto">
     <AdsBanner/>
     <ShopCollection/>
     <RecommandedProduct/>
     <NewArrivalProducts/>
     <GiftCertificateBanner/>
+    <SubscriptionClubBanner/>
     <BestSellers/>
     </div>
   </div>;

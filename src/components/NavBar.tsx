@@ -11,7 +11,7 @@ const NavBar = () => {
     { name: "Gifts", to: "#" },
   ];
 
-  return <nav className=" flex items-center justify-center gap-[74px] py-8">
+  return <nav className=" flex flex-wrap items-center justify-center gap-[74px] py-8">
 {routes.map((item:Troutes)=><a className="font-medium" href={item.to}>{item.name}</a>)}
   </nav>;
 };
